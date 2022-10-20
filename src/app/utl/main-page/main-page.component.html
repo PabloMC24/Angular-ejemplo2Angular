@@ -1,0 +1,15 @@
+<h1>Alumnos IEVN 1003</h1>
+<hr>
+<table class="table">
+<tr class="row">
+    <div class="col">
+        <!-- para pasar parámetros usamos el decorador input, 
+        lo que está en corchetes -->
+        <app-alumnos></app-alumnos>
+    </div>  
+    <div class="col">
+        <!-- Necesitamos pasar las variables para ue funcione-->
+        <app-agregar [regAlum]="alumnosUtl"></app-agregar>
+    </div>
+</tr>
+</table>
